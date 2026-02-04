@@ -7,4 +7,4 @@ This is a Python-based web application built with a lightweight framework and de
 
 ## 🎥 Demo Video
 
-[Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing" alt="Sample Video)
+[Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing)

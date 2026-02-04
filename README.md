@@ -7,4 +7,4 @@ This is a Python-based machine learning web application that predicts car prices
 
 ## 🎥 Demo Video
 
-[Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing)
+🔗 Watch Demo Video: https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing

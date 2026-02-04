@@ -1,5 +1,5 @@
 # Car Price Prediction Engine
-This is a Python-based web application built with a lightweight framework and deployed on Railway, designed to deliver fast, scalable, and practical solutions.
+This is a Python-based machine learning web application that predicts car prices using trained models. The app is built with a lightweight framework and deployed on Railway for fast and scalable access.
 
 ## 🚀 Live App
 

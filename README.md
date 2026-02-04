@@ -9,10 +9,6 @@ This is a Python-based machine learning web application that predicts car prices
 
 [🔗 Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing)
 
-'''python
-for i in
-'''
-
 ## ⚙️ Tech Stack
 - Python
 - Flask

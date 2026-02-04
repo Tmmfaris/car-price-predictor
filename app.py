@@ -1,20 +1,30 @@
 from flask import Flask, render_template, request
 import numpy as np
 import pickle, json
+import yaml
+import os
 
 app = Flask(__name__)
 
+# -------- LOAD CONFIG --------
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+
+MODEL_FILE = config["model_name"]
+SCALER_FILE = config["scaler_name"]
+FEATURE_FILE = config["feature_columns"]
+MODEL_INFO_FILE = config["model_info"]
+CURRENT_YEAR = config.get("current_year", 2026)
+
 # -------- LOAD MODEL FILES --------
-model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
-FEATURE_COLUMNS = json.load(open("feature_columns.json"))
+model = pickle.load(open(MODEL_FILE, "rb"))
+scaler = pickle.load(open(SCALER_FILE, "rb"))
+FEATURE_COLUMNS = json.load(open(FEATURE_FILE))
 
 try:
-    MODEL_NAME = json.load(open("model_info.json"))["best_model"]
+    MODEL_NAME = json.load(open(MODEL_INFO_FILE))["best_model"]
 except:
     MODEL_NAME = "AutoModel"
-
-CURRENT_YEAR = 2026
 
 
 # -------- HOME --------
@@ -75,7 +85,6 @@ def predict():
         low = round(prediction * 0.9, 2)
         high = round(prediction * 1.1, 2)
 
-        # ---- render result ----
         return render_template(
             "result.html",
             prediction=prediction,
@@ -99,9 +108,6 @@ def predict():
 
 
 # -------- RUN --------
-import os
-
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-

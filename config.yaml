@@ -1,0 +1,5 @@
+model_name: model.pkl
+scaler_name: scaler.pkl
+feature_columns: feature_columns.json
+model_info: model_info.json
+current_year: 2026

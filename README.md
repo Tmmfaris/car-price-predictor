@@ -18,13 +18,13 @@ This project demonstrates practical skills in **Machine Learning, Model Deployme
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Car price estimation is important for buyers and sellers. This project builds a regression-based ML system that predicts fair car prices using historical vehicle data and feature engineering.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Languages & Frameworks
 - Python
@@ -49,7 +49,7 @@ Car price estimation is important for buyers and sellers. This project builds a 
 
 ---
 
-## ✨ Features
+## Features
 
 - Real-time car price prediction
 - Multiple ML model comparison
@@ -60,7 +60,7 @@ Car price estimation is important for buyers and sellers. This project builds a 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 car-price-predictor/
@@ -95,7 +95,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📊 ML Workflow
+## ML Workflow
 
 - Data cleaning
 - Feature engineering
@@ -107,7 +107,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📌 Prediction Input Features
+## Prediction Input Features
 
 The model generates price estimates based on the following vehicle attributes:
 
@@ -120,13 +120,13 @@ The model generates price estimates based on the following vehicle attributes:
 - Transmission (Manual / Automatic)
 
 
-## 🚀 Deployment
+## Deployment
 
 Deployed on Railway with GitHub integration for automatic redeployment.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Larger dataset training
 - Deep learning regression model

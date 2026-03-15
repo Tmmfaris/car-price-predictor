@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction Web Application
+# Car Price Prediction Web Application
 
 A machine learning powered web application that predicts car prices based on user inputs. The system is built using Python and Flask, integrates trained ML models, and is deployed on the cloud for real-time predictions.
 
@@ -6,13 +6,13 @@ This project demonstrates practical skills in **Machine Learning, Model Deployme
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 🔗 **Live App:** [https://web-production-83b8a.up.railway.app](https://car-price-predictor-8d8e.onrender.com)
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 [🔗 Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing)
 
@@ -81,7 +81,7 @@ car-price-predictor/
 ---
 
 
-### ▶️ Run Flask App
+### Run Flask App
 
 ```bash
 python app.py

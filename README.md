@@ -8,7 +8,7 @@ This project demonstrates practical skills in **Machine Learning, Model Deployme
 
 ## 🌐 Live Demo
 
-🔗 **Live App:** https://web-production-83b8a.up.railway.app
+🔗 **Live App:** [https://web-production-83b8a.up.railway.app](https://car-price-predictor-8d8e.onrender.com)
 
 ---
 

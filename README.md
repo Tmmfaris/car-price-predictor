@@ -27,6 +27,24 @@ https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=shari
 
 ---
 
+# Google Colab Notebook
+
+The complete **machine learning training workflow** for this project is available in Google Colab.
+
+🔗 **Open in Colab**  
+https://colab.research.google.com/drive/1cmf7R4E_o92ekEqGrpJNrPvnmN2uiqeL?usp=sharing
+
+The notebook includes:
+
+- Dataset preprocessing
+- Feature engineering
+- Model training
+- Model comparison
+- Model evaluation
+- Exporting trained model for deployment
+
+---
+
 # Problem Statement
 
 Car price estimation is important for both buyers and sellers in the used car market.  
@@ -193,6 +211,6 @@ Features:
 
 📧 Email: tmmfaris@gmail.com  
 🔗 GitHub: https://github.com/Tmmfaris  
-🔗 LinkedIn: [https://linkedin.com](http://www.linkedin.com/in/muhammed-faris-tm-ab1233196)
+🔗 LinkedIn: http://www.linkedin.com/in/muhammed-faris-tm-ab1233196
 
 ---

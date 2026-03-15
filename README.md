@@ -53,7 +53,7 @@ The system uses supervised learning regression models trained on vehicle attribu
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Programming & Framework
 - Python

@@ -1,66 +1,112 @@
-# Car Price Prediction Web Application
+# Car Price Prediction Engine
 
-A machine learning powered web application that predicts car prices based on user inputs. The system is built using Python and Flask, integrates trained ML models, and is deployed on the cloud for real-time predictions.
+A **Machine Learning powered web application** that predicts the resale value of cars based on vehicle attributes and market factors.  
+The system uses trained regression models and a Flask web interface to deliver **real-time predictions through an interactive UI**.
 
-This project demonstrates practical skills in **Machine Learning, Model Deployment, Flask Web Development, and Cloud Hosting**.
+This project demonstrates practical skills in:
 
----
-
-## Live Demo
-
-🔗 **Live App:** [https://web-production-83b8a.up.railway.app](https://car-price-predictor-8d8e.onrender.com)
-
----
-
-## Demo Video
-
-[🔗 Watch Demo Video](https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing)
+- Machine Learning
+- Data Preprocessing & Feature Engineering
+- Model Deployment
+- Flask Web Development
+- Cloud Hosting
 
 ---
 
-## Problem Statement
+# Live Demo
 
-Car price estimation is important for buyers and sellers. This project builds a regression-based ML system that predicts fair car prices using historical vehicle data and feature engineering.
+🔗 **Live Application**  
+https://car-price-predictor-8d8e.onrender.com
 
 ---
 
-## Tech Stack
+# Demo Video
 
-### Languages & Frameworks
+🔗 **Watch Demo Video**  
+https://drive.google.com/file/d/1q54QTeHYb-OcXXEgfDooCNoxhnqRS2qx/view?usp=sharing
+
+---
+
+# Problem Statement
+
+Car price estimation is important for both buyers and sellers in the used car market.  
+This project builds a **machine learning regression system** that predicts fair resale prices using historical vehicle data and engineered features.
+
+The goal is to provide **accurate, data-driven price estimation** through an easy-to-use web interface.
+
+---
+
+# Machine Learning Approach
+
+The system uses supervised learning regression models trained on vehicle attributes.
+
+### ML Workflow
+
+1. Data Cleaning  
+2. Feature Engineering  
+3. Model Training  
+4. Model Evaluation  
+5. Best Model Selection  
+6. Model Serialization  
+7. Flask Integration  
+8. Web Deployment  
+
+---
+
+# 🛠 Tech Stack
+
+## Programming & Framework
 - Python
 - Flask
 
-### Machine Learning
-- Scikit-learn
+## Data Processing
 - Pandas
 - NumPy
 
-### Models Used
+## Machine Learning
+- Scikit-learn
+
+## Models Used
 - Random Forest Regressor
 - Linear Regression
 
-### Frontend
+## Frontend
 - HTML
 - CSS
 - Bootstrap
 
-### Deployment
-- Railway Cloud Platform
+## Deployment
+- Render Cloud Platform
 
 ---
 
-## Features
+# Features
 
-- Real-time car price prediction
+- AI-powered car price estimation
+- Real-time resale value prediction
+- Interactive web interface
+- Feature engineering pipeline
 - Multiple ML model comparison
-- Preprocessing + scaling pipeline
-- Clean web UI for user inputs
-- Serialized trained model usage
-- Cloud deployed application
+- Serialized trained model integration
+- Cloud-hosted Flask application
 
 ---
 
-## Project Structure
+# Prediction Input Features
+
+The model predicts resale value using the following vehicle attributes:
+
+- Model Year
+- Showroom Price (Lakhs)
+- Kilometers Driven
+- Owner Count
+- Fuel Type (Petrol / Diesel / CNG)
+- Seller Type (Dealer / Individual)
+- Transmission Type (Manual / Automatic)
+
+---
+
+# Project Structure
 
 ```
 car-price-predictor/
@@ -70,18 +116,42 @@ car-price-predictor/
 ├── templates/
 │   ├── index.html
 │   └── result.html
+│
 ├── static/
+│
 ├── model.pkl
 ├── scaler.pkl
 ├── feature_columns.json
+│
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
+# Installation & Setup
 
-### Run Flask App
+### Clone the Repository
+
+```bash
+git clone https://github.com/Tmmfaris/car-price-predictor.git
+```
+
+```
+cd car-price-predictor
+```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run the Application
 
 ```bash
 python app.py
@@ -95,42 +165,34 @@ http://127.0.0.1:5000
 
 ---
 
-## ML Workflow
+# Deployment
 
-- Data cleaning
-- Feature engineering
-- Model training
-- Model evaluation (R² comparison)
-- Best model selection
-- Model serialization (pickle)
-- Flask integration
+The application is deployed using **Render Cloud Platform** with GitHub integration.
 
----
+Features:
 
-## Prediction Input Features
-
-The model generates price estimates based on the following vehicle attributes:
-
-- Model Year
-- Showroom Price (Lakhs)
-- Kilometers Driven
-- Owner Count
-- Fuel Type (Petrol / Diesel / CNG)
-- Seller Type (Dealer / Individual)
-- Transmission (Manual / Automatic)
-
-
-## Deployment
-
-Deployed on Railway with GitHub integration for automatic redeployment.
+- Automatic deployment
+- Continuous integration
+- Real-time model prediction
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Larger dataset training
-- Deep learning regression model
-- Prediction confidence interval
-- User analytics dashboard
+- Deep learning regression models
+- Prediction confidence intervals
+- Car market analytics dashboard
+- Model explainability (SHAP / LIME)
+
+---
+
+# Author
+
+**Muhammed Faris T M**
+
+📧 Email: tmmfaris@gmail.com  
+🔗 GitHub: https://github.com/Tmmfaris  
+🔗 LinkedIn: [https://linkedin.com](http://www.linkedin.com/in/muhammed-faris-tm-ab1233196)
 
 ---
